@@ -1,0 +1,14 @@
+@'
+.git/
+node_modules/
+.expo/
+dist/
+web-build/
+AppData/
+**/AppData/
+Temp/
+**/Temp/
+.env
+.env.*
+!.env.example
+'@ | Set-Content -Path .easignore
